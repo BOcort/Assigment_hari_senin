@@ -1,0 +1,185 @@
+.top-wraper {
+    top: 0;
+    height: 850px;
+    background-color: black;
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header {
+    height: 48px;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#icon-class {
+    width: 55%;
+}
+
+#AboutMe {
+    width: 30%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#AboutMe img {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#myfp {
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+}
+
+#myfp img {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#Motivation {
+    width: 30%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#Motivation img {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header:hover {
+    background-color: white;
+    color: black;
+    transition: 0.35s;
+}
+
+#Gambar-hover {
+    display: none;
+}
+
+#icon-name {
+    display: none;
+}
+
+#icon-class:hover {
+    background-color: black;
+    color: white;
+    transition: 0.45;
+
+    #icon-prof {
+        display: none;
+    }
+
+    #icon-name {
+        display: inline-block;
+        transition: 0.35s;
+    }
+}
+
+#myfp:hover {
+    transition: 0.4s;
+
+    #Gambar-saya {
+        display: none;
+    }
+
+    #Gambar-hover {
+        display: inline-block;
+    }
+}
+
+#skill:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#contact:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#Education:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.list-item {
+    border-bottom: 2px solid white;
+}
+
+#skill-set {
+    display: none;
+}
+
+#skill:hover {
+    #skill-set {
+        display: block;
+    }
+}
+
+#contact-set {
+    display: none;
+}
+
+#contact:hover {
+    #contact-set {
+        display: block;
+    }
+}
+
+#Education-set {
+    display: none;
+}
+
+#Education:hover {
+    #Education-set {
+        display: block;
+    }
+}
+
+#senin-black {
+    display: none;
+}
+
+#light-gambar {
+    display: none;
+}
+
+.lg-mode {
+    width: 20px;
+    height: 10px;
+}
+
+
+.top-wraper:active{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    #senin-white{
+        display: none;
+    }
+    #senin-black{
+        display: block;
+    }
+    #Gambar-saya {
+        display: none;
+    }
+    #light-gambar {
+        display: block;
+        transition: 0.2;
+    }
+    #garis-tepi {
+        color:black
+    }
+}
+
